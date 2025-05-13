@@ -1,14 +1,8 @@
-import Link from "next/link";
+import Hero from '@/components/hero';
+import homeImg from 'public/home.jpg';
 
 export default function Home() {
   return (
-    <div>
-      <div>
-        <Link href="/performance">Performance</Link>
-        <Link href="/reliability">Reliability</Link>
-        <Link href="/scale">Scale</Link>
-      </div>
-      Home Page
-    </div>
+    <Hero image={homeImg} alt="Home Image" title="Welcome to Our Site" />
   );
 }

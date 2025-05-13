@@ -1,5 +1,8 @@
+import Hero from "@/components/hero";
+import performanceImg from "public/performance.jpg";
+
 export default function PerformancePage() {
   return (
-    <div>Performance</div>
+    <Hero image={performanceImg} alt="Performance Image" title="Performance Page" />
   );
 }
